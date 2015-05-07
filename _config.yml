@@ -15,10 +15,10 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "Easy Bash - Bash and Linux commands the easy way"
+title:       "Easy Shell - Bash and Linux commands the easy way"
 keywords:    "linux, unix, bash, shell, man, pages"
 description: ""
-source_link: ""
+source_link: "https://github.com/lucasviola/easyshell"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
