@@ -29,3 +29,9 @@ Exporting it to env
 $ export foo
 $ env | grep foo
 {% endhighlight %}
+
+Useful environment variables
+
+- `$PS1` your prompt setup
+- `$PATH` your path setup 
+- `$USER` your current user
