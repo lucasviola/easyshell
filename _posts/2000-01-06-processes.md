@@ -21,7 +21,7 @@ To list all processes owned by you
 
 Searching processes by keyword
 
-`$ ps -aux | grepg '<keyword>'`
+`$ ps -aux | grep '<keyword>'`
 
 Listing it Tree style
 
