@@ -2,7 +2,7 @@
 title: "environment"
 bg: green     #defined in _config.yml, can use html color like '#010101'
 color: white  #text color
-fa-icon: tree
+fa-icon: file-code-o
 ---
 
 # Working with environment and variables
