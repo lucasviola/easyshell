@@ -19,7 +19,7 @@ title:       "Easy Shell - Shell and Linux commands the easy way"
 keywords:    "linux, unix, bash, shell, man, pages"
 description: ""
 source_link: "https://github.com/lucasviola/easyshell"
-favicon:     "img/favicon.ico"
+favicon:     ""
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 
