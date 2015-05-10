@@ -2,7 +2,7 @@
 
 Created By [Lucas Viola](http://lucasviola.github.io)
 &mdash;
-[SinglePaged](https://github.com/t413/SinglePaged)
+Licensed under the [MIT License](http://opensource.org/licenses/MIT)
 &mdash;
-Licensed under a [MIT License](http://opensource.org/licenses/MIT)
+[SinglePaged](https://github.com/t413/SinglePaged)
 
