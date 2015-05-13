@@ -16,7 +16,7 @@ highlighter: pygments
 
 ### content configuration ###
 title:       "Easy Shell - Shell and Linux commands the easy way"
-keywords:    "linux, unix, bash, shell, man, pages"
+keywords:    "linux, commands, unix, bash, shell, man, pages, unix, beginner, hacking"
 description: ""
 source_link: "https://github.com/lucasviola/easyshell"
 favicon:     ""
