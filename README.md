@@ -1,5 +1,5 @@
 Easy Bash
 ======================
 
-http://lucasviolalgihub.io/easyshell
+http://lucasviolagithub.io/easyshell
 
