@@ -7,3 +7,7 @@ fa-icon: lock
 ---
 
 # File permissions
+
+To change the owner of a directory:
+
+`$ sudo chown -R newowner:newowner`
