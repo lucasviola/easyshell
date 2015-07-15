@@ -1,4 +1,4 @@
-(http://i.imgur.com/TquxyUj.png)
+![](http://i.imgur.com/TquxyUj.png)
 
 ## Where
 
