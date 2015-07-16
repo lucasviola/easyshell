@@ -20,8 +20,8 @@ fa-icon: lock
 - To change the files permissions:
   - Using letters: 
     - Operators:
-      - + (add permission)
-      - - (remove permission)
+      - \+ (add permission)
+      - \- (remove permission)
       - = (changes permissions to the informed)
     - Which users:
       - u: user
