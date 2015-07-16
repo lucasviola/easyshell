@@ -15,6 +15,7 @@ fa-icon: lock
 - To view actual files permissions
 
   `$ ls -l`
+  
   - Example: `drwxr-xr-x`:
     - First letter is the file type:
       - d: directory
