@@ -19,17 +19,26 @@ fa-icon: lock
 
 - To change the files permissions:
   - Using letters: 
-    - Operators:
-      - \+ (add permission)
-      - \- (remove permission)
-      - = (changes permissions to the informed)
     - Which users:
       - u: user
       - g: group
       - o: others
       - a: all
+    - Operators:
+      - \+ (add permission)
+      - \- (remove permission)
+      - = (changes permissions to the informed)
     - Permissions: 
       - r: read
       - w: write
       - x: execute
     - Example: `$ chmod a+w file` add write permission for all users
+  - Using numbers
+    - Permissions: 
+      - 4 (read)
+      - 2 (write)
+      - 1 (execute)
+    - Example: `$ chmod 754 file` set permission to file:
+      - user = 7 (read + write + execute)
+      - group = 5 (read + execute)
+      - others = 4 (read)
