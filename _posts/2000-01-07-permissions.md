@@ -18,44 +18,51 @@ fa-icon: lock
   
   - Example: `drwxr-xr-x`:
     - First letter is the file type:
-      - d: directory
-      - b: block file
-      - c: special file
-      - p: pipe
-      - s: socket
-      - \-: regular file
+
+      d          | b          | c            | p    | s      | \-
+      -----------|------------|--------------|------|--------|-------------
+      directory  | block file | special file | pipe | socket | regular file
+
     - Second, third and fourth letters are the **user** permissions
     - Fifth, sixth and seventh letters are the **group** permissions
     - Eighth, ninth and tenth letters are the **others** permissions
     - Permissions
-      - r: read
-      - w: write
-      - x: execute
-      - \-: disable
-
+    
+      r    | w     | x       | \-
+      -----|-------|---------|--------
+      read | write | execute | disable
 
 - To change the files permissions:
   - Using letters: 
     - Which users:
-      - u: user
-      - g: group
-      - o: others
-      - a: all
+    
+      u    |   g   |    o   | a
+      -----|-------|--------|----
+      user | group | others | all
+      
     - Operators:
-      - \+ (add permission)
-      - \- (remove permission)
-      - = (changes permissions to the inserted)
+    
+      \+             |        \-         |                  =
+      ---------------|-------------------|------------------------------------
+      add permission | remove permission | changes permissions to the inserted
+      
     - Permissions: 
-      - r: read
-      - w: write
-      - x: execute
+    
+      r    | w     | x      
+      -----|-------|--------
+      read | write | execute
+
     - Example: `$ chmod a+w file` add **write** permission for **all** users
   - Using numbers
     - Permissions: 
-      - 4 (read)
-      - 2 (write)
-      - 1 (execute)
+    
+      read | write | execute
+      -----|-------|--------
+        4  |   2   |    1
+      
     - Example: `$ chmod 754 file` set permission to file:
-      - user = 7 (read + write + execute)
-      - group = 5 (read + execute)
-      - others = 4 (read)
+    
+                user         |      group     |others
+      -----------------------|----------------|------
+                7            |       5        |  4
+      read + write + execute | read + execute | read
