@@ -15,6 +15,22 @@ fa-icon: lock
 - To view actual files permissions
 
   `$ ls -l`
+  - Example: `drwxr-xr-x`:
+    - First letter is the file type:
+      - d: directory
+      - b: block file
+      - c: special file
+      - p: pipe
+      - s: socket
+      - \-: regular file
+    - Second, third and fourth letters are the **user** permissions
+    - Fifth, sixth and seventh letters are the **group** permissions
+    - Eighth, ninth and tenth letters are the **others** permissions
+    - Permissions
+      - r: read
+      - w: write
+      - x: execute
+      - \-: disable
 
 
 - To change the files permissions:
@@ -27,12 +43,12 @@ fa-icon: lock
     - Operators:
       - \+ (add permission)
       - \- (remove permission)
-      - = (changes permissions to the informed)
+      - = (changes permissions to the inserted)
     - Permissions: 
       - r: read
       - w: write
       - x: execute
-    - Example: `$ chmod a+w file` add write permission for all users
+    - Example: `$ chmod a+w file` add **write** permission for **all** users
   - Using numbers
     - Permissions: 
       - 4 (read)
