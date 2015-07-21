@@ -1,0 +1,15 @@
+#permissions table {
+  border-collapse: separate;
+}
+
+#permissions th {
+  background-color: #6C7A89;
+}
+
+#permissions table, #permissions td, #permissions th {
+  border: 1px solid white;
+}
+
+#permissions td, #permissions th {
+  padding: 5px;
+}
