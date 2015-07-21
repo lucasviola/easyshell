@@ -20,7 +20,7 @@ fa-icon: lock
     - First letter is the file type:
 
       d          | b          | c            | p    | s      | \-
-      -----------|------------|--------------|------|--------|-------------
+      :---------:|:----------:|:------------:|:----:|:------:|:-----------:
       directory  | block file | special file | pipe | socket | regular file
 
     - Second, third and fourth letters are the **user** permissions
@@ -29,7 +29,7 @@ fa-icon: lock
     - Permissions
     
       r    | w     | x       | \-
-      -----|-------|---------|--------
+      :---:|:-----:|:-------:|:------:
       read | write | execute | disable
 
 - To change the files permissions:
@@ -37,19 +37,19 @@ fa-icon: lock
     - Which users:
     
       u    |   g   |    o   | a
-      -----|-------|--------|----
+      :---:|:-----:|:------:|:--:
       user | group | others | all
       
     - Operators:
     
       \+             |        \-         |                  =
-      ---------------|-------------------|------------------------------------
+      :-------------:|:-----------------:|:----------------------------------:
       add permission | remove permission | changes permissions to the inserted
       
     - Permissions: 
     
       r    | w     | x      
-      -----|-------|--------
+      :---:|:-----:|:------:
       read | write | execute
 
     - Example: `$ chmod a+w file` add **write** permission for **all** users
@@ -57,12 +57,12 @@ fa-icon: lock
     - Permissions: 
     
       read | write | execute
-      -----|-------|--------
+      :---:|:-----:|:------:
         4  |   2   |    1
       
     - Example: `$ chmod 754 file` set permission to file:
     
                 user         |      group     |others
-      -----------------------|----------------|------
+      :---------------------:|:--------------:|:------:
                 7            |       5        |  4
       read + write + execute | read + execute | read
