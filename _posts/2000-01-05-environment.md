@@ -1,6 +1,6 @@
 ---
 title: "environment"
-bg: green     #defined in _config.yml, can use html color like '#010101'
+bg: black    
 color: white  #text color
 fa-icon: file-code-o
 ---
