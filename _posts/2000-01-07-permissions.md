@@ -1,6 +1,6 @@
 ---
 title: "permissions"
-bg: #F1BD9B     #defined in _config.yml, can use html color like '#010101'
+bg: grass-green     #defined in _config.yml, can use html color like '#010101'
 color: white  #text color
 style: left
 fa-icon: lock

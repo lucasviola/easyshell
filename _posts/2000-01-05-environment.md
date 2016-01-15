@@ -1,6 +1,6 @@
 ---
 title: "environment"
-bg: #1A5946    
+bg: mod-white    
 color: white  #text color
 fa-icon: file-code-o
 ---

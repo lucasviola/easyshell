@@ -1,6 +1,6 @@
 ---
 title: "Custom Bash"
-bg: #F52F30
+bg: mod-white
 color: white
 fa-icon: terminal
 ---
