@@ -1,7 +1,7 @@
 ---
 title: "Custom Bash"
 bg: mod-white
-color: white
+color: black
 fa-icon: terminal
 ---
 
