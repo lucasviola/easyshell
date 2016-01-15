@@ -34,3 +34,9 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
   red: '#C92D2D'
+### Hacking template
+  dark-green: '#0A3E31'
+  grass-green: '#528D79'
+  pool-green: '#8DD7BE'
+  mod-white:  '#D3F1E7'
+  
