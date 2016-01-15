@@ -1,7 +1,7 @@
 ---
 title: "environment"
 bg: mod-white    
-color: white  #text color
+color: black  #text color
 fa-icon: file-code-o
 ---
 
