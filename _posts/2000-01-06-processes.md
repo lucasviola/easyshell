@@ -1,6 +1,6 @@
 ---
 title: "processes"
-bg: black    
+bg: #EF3641    
 color: white #text color
 fa-icon: gear
 ---
