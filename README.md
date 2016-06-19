@@ -26,6 +26,7 @@ $ cd easyshell/
 $ jekyll serve -w
 ```
 
+Check [here](http://fontawesome.io/icons/) to get more information about icons.
 ## License
 
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
