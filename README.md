@@ -18,6 +18,14 @@ My name is [Lucas Viola](http://github.com/lucasviola). I'm software enthusiast 
 functional languages, solving problems, DevOps culture and
 obviously...Linux!
 
+## Building
+```
+$ sudo gem install github-pages
+$ git clone git@github.com:lucasviola/easyshell.git
+$ cd easyshell/
+$ jekyll serve -w
+```
+
 ## License
 
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
